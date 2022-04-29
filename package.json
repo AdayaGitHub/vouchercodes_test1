@@ -1,0 +1,17 @@
+{
+  "name": "vouchercodes",
+  "version": "1.0.0",
+  "description": "Cypress tests to validate search function for vouchers for local restaurants",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:search": "npx cypress run --spec cypress/integration/test/search.spec.js",
+    "test:searh-error": "npx cypress run --spec cypress/integration/test/search-error.spec.js",
+    "open-cypress": "npx cypress open"
+  },
+  "author": "adayas",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
