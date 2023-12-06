@@ -1,0 +1,101 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User successfully searches for restaurant offers",
+    "line": 1,
+    "id": "user-successfully-searches-for-restaurant-offers",
+    "tags": [],
+    "uri": "search_successful.feature",
+    "elements": [
+      {
+        "id": "user-successfully-searches-for-restaurant-offers;",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I expand the \"Categories\" menu",
+            "result": {
+              "status": "passed",
+              "duration": 4205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select \"Restaurants\"",
+            "result": {
+              "status": "passed",
+              "duration": 5218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be directed to the Restaurants page",
+            "result": {
+              "status": "passed",
+              "duration": 3530000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "location",
+                      "date",
+                      "people"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "London",
+                      "Any",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have entered the following voucher search details",
+            "result": {
+              "status": "passed",
+              "duration": 43789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I confirm search for vouchers and vouchers are updated",
+            "result": {
+              "status": "passed",
+              "duration": 1665000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
